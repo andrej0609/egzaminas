@@ -1,0 +1,61 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "admin",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "avatar": "https://i.pravatar.cc/150?img=55"
+    },
+    {
+      "id": 2,
+      "name": "user",
+      "email": "user@user.com",
+      "password": "user",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "email": "user2@user.com",
+      "name": "Ponia",
+      "password": "qwe123",
+      "avatar": "https://i.pravatar.cc/150?img=25",
+      "passwordRepeat": "qwe123",
+      "id": 1675776502889
+    }
+  ],
+  "posts": [
+    {
+      "heading": "Add new cofee",
+      "content": "Kazkas kitas",
+      "id": "OZQ6mGJ98GUgdCfg9VN7k",
+      "userId": 1675776502889,
+      "likes": 2,
+      "dislikes": -2,
+      "Time": "2/7/2023, 3:28:50 PM",
+      "edited": false
+    },
+    {
+      "heading": "Pavadinimas0a",
+      "content": "something",
+      "id": "AuBBCPNiGjyLX1k_W0xgQ",
+      "userId": 1,
+      "likes": 1,
+      "dislikes": -1,
+      "Time": "2/7/2023, 3:30:42 PM",
+      "edited": false
+    }
+  ],
+  "atsakymas": [
+    {},
+    {
+      "postId": "OZQ6mGJ98GUgdCfg9VN7k",
+      "userId": 1,
+      "content": "qwe",
+      "id": "DT7Sl0AxfEMRS9LLe66Nd",
+      "edited": false,
+      "Time": "2/7/2023, 3:37:39 PM",
+      "likes": 1,
+      "dislikes": 0
+    }
+  ]
+}
