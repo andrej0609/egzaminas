@@ -87,7 +87,7 @@ const PostProvider = ({ children }) => {
     <PostContext.Provider
       value={{
         posts:
-          filteredPosts,
+        filteredPosts,
         addNewPost,
         deletePost,
         updatePost,
