@@ -49,4 +49,3 @@ const UserProvider = ({ children }) => {
 
 export { UserProvider };
 export default UserContext;
-

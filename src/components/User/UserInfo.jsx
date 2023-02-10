@@ -17,20 +17,20 @@ const UserInfo = () => {
   return (
     <>
       <div className="UserInfo">
-      <div className="logo">
-        <img src="https://varialhosting.com/blog/wp-content/uploads/2020/02/websiteplanet.png" alt='logo' />
-      </div>
-        <div>
-          <Link to="/">HOME</Link>
+        <div className="logo">
+          <img src="https://varialhosting.com/blog/wp-content/uploads/2020/02/websiteplanet.png" alt='logo' />
         </div>
-        <div>
-          <Link to="/newPost">Add new post</Link>
+        <div className="menu">
+          <div>
+            <Link to="/">Home</Link>
+            <Link to="/newPost">Add</Link>
             <img
               src={loggedInUser.avatar}
               alt="user avatar"
             />
-          <span className="Username">{loggedInUser.name}</span>
-          <button onClick={() => logOutUser()}>LogOut</button>
+            <span className="Username">{loggedInUser.name}</span>
+            <button onClick={() => logOutUser()}>LogOut</button>
+          </div>
         </div>
       </div>
       <Outlet />
