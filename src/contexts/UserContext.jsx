@@ -18,18 +18,16 @@ const UserProvider = ({ children }) => {
 
 
   const addNewUser = (newUser) => {
+    const user = { ...newUser };
+    delete user.passwordRepeat;
     fetch('http://localhost:5000/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
       },
-      body: JSON.stringify(newUser)
+      body: JSON.stringify(user)
     })
     setUsers([...users, newUser]);
-  }
-
-  const banOrUnbanUser = (id) => {
-    setUsers(users.map(user => user.id.toString() === id.toString() ? { ...user, isBanned: !user.isBanned } : user));
   }
 
   return (
@@ -37,7 +35,6 @@ const UserProvider = ({ children }) => {
       value={{
         users,
         addNewUser,
-        banOrUnbanUser,
         loggedInUser,
         setLoggedInUser
       }}
