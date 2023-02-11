@@ -17,16 +17,15 @@ const Header = () => {
             <Link to='/register'>Register</Link>
           </div>
       }
-      <hr className='line' />
       {
         loggedInUser ?
           <div className="addPost"></div>
           :
           <>
-            <div className='info'>
-              <p>Pls login or register to add new post, or to see your posts</p>
-            </div>
             <hr className='line' />
+            <div className='info'>
+              <p>Pls Login <Link to='/login'><i className="fas fa-sign-in-alt"></i></Link> or Register <Link to='/register'><i className="fas fa-user-plus"></i></Link> to add new post, or to see your posts</p>
+            </div>
           </>
       }
     </>

@@ -1,0 +1,413 @@
+@media screen and (min-width: 830px) {
+  .Post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    height: 100px;
+    padding-left: 20px;
+    background-color: #ecebea;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+
+  .Post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .Post .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .name span {
+    font-weight: bold;
+  }
+
+  .Post .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  .Post .buttons i {
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .Post .edited {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .edited p {
+    font-size: 10px;
+    color: red;
+  }
+
+  .Post .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .content p {
+    font-size: 20px;
+  }
+
+  .Post .Time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .Time p {
+    font-size: 10px;
+  }
+
+  .Post .Likes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Post .Likes i {
+    font-size: 20px;
+    color: green;
+  }
+
+  .Post .Likes span {
+    font-size: 20px;
+  }
+
+  .Post .Dislike {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .Post .Dislike i {
+    font-size: 20px;
+    color: red;
+  }
+
+  .Post .Dislike span {
+    font-size: 20px;
+  }
+
+  .post-answer-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #ecebea;
+    margin-bottom: 10px;
+  }
+
+  .post-answer-form input {
+    width: 80%;
+    height: 100%;
+    font-size: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .post-answer-form button {
+    width: 30%;
+    height: 100%;
+    font-size: 20px;
+    background-color: #ecebea;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .post-answer-form button:hover {
+    background-color: #d6d6d6;
+  }
+}
+
+@media screen and (max-width: 830px) {
+  .Post {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    height: 100px;
+    padding-left: 20px;
+    background-color: #ecebea;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+
+  .Post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .Post .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .name span {
+    font-weight: bold;
+  }
+
+  .Post .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  .Post .buttons i {
+    font-size: 20px;
+    padding-right: 20px;
+  }
+
+  .Post .edited {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .edited p {
+    font-size: 10px;
+    color: red;
+  }
+
+  .Post .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .content p {
+    font-size: 20px;
+  }
+
+  .Post .Time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .Time p {
+    font-size: 10px;
+  }
+
+  .Post .Likes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Post .Likes i {
+    font-size: 20px;
+    color: green;
+  }
+
+  .Post .Likes span {
+    font-size: 20px;
+  }
+
+  .Post .Dislike {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .Post .Dislike i {
+    font-size: 20px;
+    color: red;
+  }
+}
+
+
+@media screen and (max-width: 580px) {
+  .Post {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    padding-left: 20px;
+    background-color: #ecebea;
+    border: 1px solid black;
+    margin-bottom: 10px;
+  }
+
+  .Post img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .Post .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .name span {
+    font-weight: bold;
+  }
+
+  .Post .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+  .Post .buttons i {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .Post .edited {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .edited p {
+    font-size: 8px;
+    color: red;
+  }
+
+  .Post .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .content p {
+    font-size: 20px;
+  }
+
+  .Post .Time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .Post .Time p {
+    font-size: 10px;
+  }
+
+  .Post .Likes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Post .Likes i {
+    font-size: 20px;
+    color: green;
+  }
+
+  .Post .Likes span {
+    font-size: 20px;
+  }
+
+  .Post .Dislike {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+
+  .Post .Dislike i {
+    font-size: 20px;
+    color: red;
+  }
+
+  .Post .Dislike span {
+    font-size: 20px;
+  }
+
+  .post-answer-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #ecebea;
+    margin-bottom: 10px;
+  }
+
+  .post-answer-form input {
+    width: 80%;
+    height: 100%;
+    font-size: 20px;
+    padding-left: 20px;
+  }
+
+  .post-answer-form button {
+    width: 20%;
+    height: 100%;
+    font-size: 20px;
+    background-color: #ecebea;
+    border: 1px solid black;
+  }
+
+  .post-answer-form button:hover {
+    background-color: #d6d6d6;
+  }
+
+  .Post .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    cursor: pointer;
+  }
+
+
+
+}
