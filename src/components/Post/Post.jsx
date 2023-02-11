@@ -6,7 +6,7 @@ import AnswerContext from "../../contexts/AnswerContext";
 
 const Post = ({ data, postContent }) => {
   const { users, loggedInUser } = useContext(UserContext);
-  const { deletePost, likePost, dislikePost } = useContext(PostContext);
+  const { deletePost, handleLike, handleDislike } = useContext(PostContext);
   const { answers } = useContext(AnswerContext);
   const postOwner = users.find(user => user.id === data.userId);
   const postAnswers = answers.filter(answer => answer.postId === data.id);
@@ -44,11 +44,11 @@ const Post = ({ data, postContent }) => {
         </div>
         <div className="post-footer">
           <div className="post-footer-left">
-            <i className="fas fa-thumbs-up" onClick={() => likePost(data.id)}></i>
+            <i className="fas fa-thumbs-up" onClick={() => handleLike(data.id)}></i>
             <div className="post-like">
               <span>{data.likes} likes</span>
             </div>
-            <i className="fas fa-thumbs-down" onClick={() => dislikePost(data.id)}></i>
+            <i className="fas fa-thumbs-down" onClick={() => handleDislike(data.id)}></i>
             <div className="post-dislike">
               <span>{data.dislikes} dislikes</span>
             </div>
