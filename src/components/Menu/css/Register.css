@@ -1,0 +1,90 @@
+.FormRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+  width: 100vw;
+  background-color: #ececec
+}
+
+.FormRegister form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #ececec;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.FormRegister form label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.FormRegister form label input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.FormRegister form label input:focus {
+  border: 1px solid #000;
+}
+
+.FormRegister form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.FormRegister form input[type="submit"]:hover {
+  background-color: #333;
+}
+
+.FormRegister form span {
+  color: red;
+}
+
+.FormRegister form span a {
+  color: #000;
+  text-decoration: none;
+}
+
+.FormRegister form span a:hover {
+  color: #f00;
+}
+
+.FormRegister form span a:active {
+  color: #0f0;
+}
+
+.FormRegister button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.FormRegister button:hover {
+  background-color: #333;
+}
