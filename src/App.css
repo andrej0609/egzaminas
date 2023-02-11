@@ -1,0 +1,69 @@
+@import url('./components/Menu/css/Header.css');
+@import url('./components/Menu/css/Login.css');
+@import url('./components/Menu/css/Register.css');
+@import url('./components/Post/css/EditPost.css');
+@import url('./components/Post/css/AddNewPost.css');
+@import url('./components/Post/css/Post.css');
+@import url('./components/User/css/UserInfo.css');
+@import url('./components/Menu/css/Footer.css');
+@import url('./components/Post/css/Answers.css');
+@import url('./components/Post/css/EditAnswer.css');
+@import url('./components/Post/css/Filterio.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ecebea;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+
+.loading img {
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+#root>div.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 45vh;
+  gap: 20px;
+}
+
+#root>div.Login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 55vh;
+  gap: 20px;
+}
+
+#root>div.post-answers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
