@@ -1,0 +1,653 @@
+@media screen and (min-width: 768px) {
+  .post-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+  }
+
+  .post-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .post-header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-right button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .post-header-right button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .post-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  .post-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    font-size: 25px;
+  }
+
+  .post-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-time p {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .post-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-footer-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-footer-left i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .post-footer-left i:hover {
+    color: #000;
+  }
+
+
+  .post-like span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .post-dislike span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .post-footer-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-footer-right span {
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .post-footer-right i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .post-footer-right i:hover {
+    color: #000;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .post-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 400px;
+    height: 300px;
+  }
+
+  .post-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .post-header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-right button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .post-header-right button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .post-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+  }
+
+  .post-title h2 {
+    font-size: 23px;
+    font-weight: bold;
+  }
+
+  .post-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    font-size: 20px;
+  }
+
+  .post-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+  }
+
+  .post-time p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .post-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-footer-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-footer-left i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .post-footer-left i:hover {
+    color: #000;
+  }
+
+  .post-footer-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+  }
+
+  span {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  #root>h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .post-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .post-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .post-header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-right button {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .post-header-right button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+
+  .post-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+  }
+
+  .post-title h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .post-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+    font-size: 15px;
+  }
+
+  .post-time {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+  }
+
+  .post-time p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .post-footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-footer-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-footer-left i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .post-footer-left i:hover {
+    color: #000;
+  }
+
+  .post-footer-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+  }
+
+  span {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  .post-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .post-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .post-header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-right button {
+    width: 55px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  #root>h1 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .post-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 1000px;
+    height: 300px;
+  }
+
+  .posts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .post-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-left img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .post-header-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+  }
+
+  .post-header-right button {
+    width: 55px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  .post-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    gap: 15px;
+  }
+
+  .post-title h2 {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .post-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: 500px;
+    height: 300px;
+  }
+
+}
