@@ -41,7 +41,7 @@ const EditAnswerForm = () => {
                 <Field name="content" type="text" />
                 {errors.content && touched.content ? <div>{errors.content}</div> : null}
               </label>
-              <input type="submit" value="Edit Answer" />
+              <button type="submit" value="Edit Answer">Edit Answer</button>
             </Form>
           )}
         </Formik>
