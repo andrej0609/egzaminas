@@ -27,7 +27,10 @@ const Answers = () => {
       edited: false,
       Time: new Date().toLocaleString(),
       likes: 0,
-      dislikes: 0
+      likedBy: [],
+      dislikes: 0,
+      dislikedBy: []
+
     };
     addNewAnswer(newAnswer);
     e.target[0].value = "";
