@@ -1,0 +1,68 @@
+.FormAddPost {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  width: 100vw;
+  background-color: #f5f5f5;
+}
+
+.FormAddPost form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.FormAddPost form label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.FormAddPost form label input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.FormAddPost form label input:focus {
+  border: 1px solid #000;
+}
+
+.FormAddPost form input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.FormAddPost form input[type="submit"]:hover {
+  background-color: #333;
+}
+
+.FormAddPost form span {
+  margin-top: 10px;
+  color: #000;
+}
+
+.FormAddPost form span a {
+  color: #000;
+  text-decoration: none;
+}
