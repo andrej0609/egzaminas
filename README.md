@@ -1,14 +1,21 @@
-1. Paleisti lokalią duomenų bazę
+1. Suinstaliuoti React aplikaciją
 
 Terminale įvykdyti komandas:
-json-server src/data.json --watch --port 5000
+
+npm install
+
+
+2. Paleisti lokalią duomenų bazę
+
+Terminale įvykdyti komandas:
+npm run json-server
 
 Tai paleis lokalią duomenų bazę, kuri bus pasiekiamas adresu http://localhost:5000
 
-2. Paleisti React aplikaciją
+3. Paleisti React aplikaciją
 
 Terminale įvykdyti komandas:
-npm install
+
 npm start
 
 Tai paleis React aplikaciją, kuri bus pasiekiamas adresu http://localhost:3000
