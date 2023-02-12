@@ -35,8 +35,10 @@
       "content": "Pati nesugebu :(",
       "id": "HzyE-YdODuTVKq0VnZRVF",
       "userId": 1675776502889,
-      "likes": 0,
-      "likedBy": [],
+      "likes": 1,
+      "likedBy": [
+        1675776502889
+      ],
       "dislikes": 0,
       "dislikedBy": [],
       "Time": "2/11/2023, 4:10:39 PM",
@@ -50,8 +52,8 @@
       "likes": 3,
       "likedBy": [
         2,
-        1675776502889,
-        1
+        1,
+        1675776502889
       ],
       "dislikes": 0,
       "dislikedBy": [],
@@ -65,8 +67,8 @@
       "userId": 2,
       "likes": 2,
       "likedBy": [
-        1675776502889,
-        1
+        1,
+        1675776502889
       ],
       "dislikes": 1,
       "dislikedBy": [
@@ -119,6 +121,18 @@
       "likedBy": [
         1676023658287
       ],
+      "dislikes": 0,
+      "dislikedBy": []
+    },
+    {
+      "postId": "71bzECqZGrt3UI3E2Q3fW",
+      "userId": 1675776502889,
+      "content": "Ohio is the best!!",
+      "id": "Oy3mpbNzBlNhbnbcQ7c4t",
+      "edited": true,
+      "Time": "2/12/2023, 12:48:19 PM",
+      "likes": 0,
+      "likedBy": [],
       "dislikes": 0,
       "dislikedBy": []
     }

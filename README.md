@@ -19,7 +19,3 @@ Prisijungimo vardas: admin
 Slaptažodis: admin
 
 Arba prisijungti su savo paskyra, kurią galima sukurti registracijos formoje.
-
-
-
-
