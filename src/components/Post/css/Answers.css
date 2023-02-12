@@ -121,7 +121,6 @@
   }
 
   .post-answer-form input {
-    width: 80%;
     height: 100%;
     font-size: 20px;
     padding-left: 20px;
@@ -130,7 +129,6 @@
   }
 
   .post-answer-form button {
-    width: 30%;
     height: 100%;
     font-size: 20px;
     background-color: #ecebea;
@@ -250,6 +248,33 @@
   .Post .Dislike i {
     font-size: 20px;
     color: red;
+  }
+
+  .post-answer-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    background-color: #ecebea;
+    margin-bottom: 10px;
+  }
+
+  .post-answer-form input {
+    height: 100%;
+    font-size: 20px;
+    padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
+
+  .post-answer-form button {
+    height: 100%;
+    font-size: 20px;
+    background-color: #ecebea;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
   }
 }
 
@@ -381,18 +406,20 @@
   }
 
   .post-answer-form input {
-    width: 80%;
     height: 100%;
     font-size: 20px;
     padding-left: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
   }
 
   .post-answer-form button {
-    width: 20%;
     height: 100%;
     font-size: 20px;
     background-color: #ecebea;
     border: 1px solid black;
+    cursor: pointer;
+    border-radius: 5px;
   }
 
   .post-answer-form button:hover {

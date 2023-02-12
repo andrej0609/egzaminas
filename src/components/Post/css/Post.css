@@ -172,6 +172,14 @@
 }
 
 @media screen and (min-width: 580px) {
+  .posts-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
   .post-item {
     display: flex;
     flex-direction: column;
@@ -319,7 +327,6 @@
   }
 
   span {
-    font-size: 12px;
     font-weight: bold;
   }
 
@@ -327,6 +334,7 @@
     font-size: 30px;
     font-weight: bold;
     margin: 20px;
+    text-align: center;
   }
 }
 
@@ -547,6 +555,7 @@
     font-size: 30px;
     font-weight: bold;
     margin: 20px;
+    text-align: center;
   }
 }
 
