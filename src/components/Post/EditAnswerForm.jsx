@@ -15,7 +15,7 @@ const EditAnswerForm = () => {
   const navigation = useNavigate();
 
   const validationSchema = Yup.object().shape({
-    content: Yup.string().required('Content is required').min(3, 'Content must be at least 3 characters'),
+    content: Yup.string().required('Content is required').min(5, 'Content must be at least 5 characters'),
   });
 
   const handleSubmit = (values) => {

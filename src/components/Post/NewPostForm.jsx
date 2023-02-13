@@ -14,8 +14,8 @@ const NewPostForm = () => {
   const navigation = useNavigate();
 
   const validationSchema = yup.object().shape({
-    heading: yup.string().required('Heading is required').min(3, 'Heading must be at least 3 characters'),
-    content: yup.string().required('Content is required').min(3, 'Content must be at least 3 characters'),
+    heading: yup.string().required('Heading is required').min(5, 'Heading must be at least 5 characters'),
+    content: yup.string().required('Content is required').min(5, 'Content must be at least 5 characters'),
   });
 
   const handleSubmit = (values) => {

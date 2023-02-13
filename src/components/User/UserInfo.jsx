@@ -23,7 +23,7 @@ const UserInfo = () => {
         <div className="menu">
           <div>
             <Link to="/">Home</Link>
-            <Link to="/newPost">Add</Link>
+            <Link to="/newPost">Ask new question</Link>
             <img
               src={loggedInUser.avatar}
               alt="user avatar"
