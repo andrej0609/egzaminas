@@ -27,38 +27,33 @@
       "password": "qwe123",
       "avatar": "https://i.pravatar.cc/150?img=29",
       "id": 1676023658287
+    },
+    {
+      "email": "test@test.com",
+      "name": "test",
+      "password": "qweąčę",
+      "avatar": "https://i.pravatar.cc/150?img=35",
+      "id": 1676273717442
     }
   ],
   "posts": [
     {
-      "heading": "Kas pagelbes pravalyt sniega?",
-      "content": "Pati nesugebu :(",
-      "id": "HzyE-YdODuTVKq0VnZRVF",
-      "userId": 1675776502889,
-      "likes": 1,
-      "likedBy": [
-        1675776502889
-      ],
-      "dislikes": 0,
-      "dislikedBy": [],
-      "Time": "2/11/2023, 4:10:39 PM",
-      "edited": false
-    },
-    {
-      "heading": "Morning",
+      "heading": "Who are you\\?",
       "content": "Normal day in Ohio",
       "id": "71bzECqZGrt3UI3E2Q3fW",
       "userId": 1676023658287,
-      "likes": 3,
+      "likes": 5,
       "likedBy": [
         2,
         1,
-        1675776502889
+        1675776502889,
+        1676023658287,
+        1676273717442
       ],
       "dislikes": 0,
       "dislikedBy": [],
       "Time": "2/11/2023, 4:10:59 PM",
-      "edited": false
+      "edited": true
     },
     {
       "heading": "Kur man gyvent?",
@@ -76,24 +71,33 @@
       ],
       "Time": "2/11/2023, 4:11:16 PM",
       "edited": false
+    },
+    {
+      "heading": "Kas padės?",
+      "content": "Kas padės pravalyt sniega?",
+      "id": "deP2_1e9k7lykaQkbz7fW",
+      "userId": 1675776502889,
+      "likes": 0,
+      "likedBy": [],
+      "dislikes": 0,
+      "dislikedBy": [],
+      "Time": "2/13/2023, 7:54:56 AM",
+      "edited": false
+    },
+    {
+      "heading": "qwe12",
+      "content": "qwe12",
+      "id": "wRbK5hiEWOmAEfCFzyaSG",
+      "userId": 1676273717442,
+      "likes": 0,
+      "likedBy": [],
+      "dislikes": 0,
+      "dislikedBy": [],
+      "Time": "2/13/2023, 9:39:16 AM",
+      "edited": true
     }
   ],
   "atsakymas": [
-    {
-      "postId": "71bzECqZGrt3UI3E2Q3fW",
-      "userId": 1,
-      "content": "Where is that Ohio?",
-      "id": "efXIdOc0beyPwcae3Y1en",
-      "edited": false,
-      "Time": "2/11/2023, 4:21:24 PM",
-      "likes": 2,
-      "likedBy": [
-        1,
-        2
-      ],
-      "dislikes": 0,
-      "dislikedBy": []
-    },
     {
       "postId": "71bzECqZGrt3UI3E2Q3fW",
       "userId": 2,
@@ -104,21 +108,7 @@
       "likes": 3,
       "likedBy": [
         2,
-        1676023658287,
-        1675776502889
-      ],
-      "dislikes": 0,
-      "dislikedBy": []
-    },
-    {
-      "postId": "HzyE-YdODuTVKq0VnZRVF",
-      "userId": 1676023658287,
-      "content": "Test",
-      "id": "hMEumP1nbByE49CaDCqpy",
-      "edited": false,
-      "Time": "2/11/2023, 4:25:42 PM",
-      "likes": 1,
-      "likedBy": [
+        1675776502889,
         1676023658287
       ],
       "dislikes": 0,
@@ -131,6 +121,35 @@
       "id": "Oy3mpbNzBlNhbnbcQ7c4t",
       "edited": true,
       "Time": "2/12/2023, 12:48:19 PM",
+      "likes": 2,
+      "likedBy": [
+        1676273717442,
+        1
+      ],
+      "dislikes": 1,
+      "dislikedBy": [
+        1
+      ]
+    },
+    {
+      "postId": "deP2_1e9k7lykaQkbz7fW",
+      "userId": 1,
+      "content": "Niekas",
+      "id": "M7DEaUUM1dEFMDTP03sN2",
+      "edited": false,
+      "Time": "2/13/2023, 7:55:12 AM",
+      "likes": 0,
+      "likedBy": [],
+      "dislikes": 0,
+      "dislikedBy": []
+    },
+    {
+      "postId": "71bzECqZGrt3UI3E2Q3fW",
+      "userId": 1,
+      "content": "qwe123",
+      "id": "CDQVEE1m08xtuUvXZIrto",
+      "edited": false,
+      "Time": "2/13/2023, 9:41:15 AM",
       "likes": 0,
       "likedBy": [],
       "dislikes": 0,
